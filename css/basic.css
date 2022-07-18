@@ -172,10 +172,10 @@ body {
   }
   .work-content li {
     margin: 0 6px 48px 6px;
+    font-weight: 500;
   }
   .work-content li h3 {
     margin-top: 16px;
-    font-weight: 500;
   }
   .footer {
     text-align: center;
