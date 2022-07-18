@@ -66,7 +66,7 @@ body {
     padding-bottom: 24px;
   }
   .banner {
-    height: 100%;
+    background-size: cover;
     text-align: left;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
     background-repeat: no-repeat;
