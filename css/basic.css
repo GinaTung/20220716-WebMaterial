@@ -1,6 +1,7 @@
 body {
-    font-family:  Roboto,-apple-system, BlinkMacSystemFont, "Segoe UI",
-      "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family:"Roboto",-apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Microsoft JhengHei", "Roboto", "Helvetica Neue", Arial, sans-serif;
+      font-style: italic;
   }
   *,
   *::before,
@@ -20,18 +21,22 @@ body {
   h1 {
     font-size: 80px;
     line-height: 1.325;
+    font-weight: 900;
   }
   h2 {
     font-size: 64px;
     line-height: 1.3125;
+    font-weight: 500;
   }
   span{
     font-size: 24px;
     line-height: 1.75;
+    font-weight: 700;
   }
   P {
     font-size: 24px;
     line-height: 1.5;
+    font-weight: 700;
   }
   .lh-0 {
     line-height: 1.5;
@@ -61,6 +66,7 @@ body {
     padding-bottom: 24px;
   }
   .banner {
+    height: 100%;
     text-align: left;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
     background-repeat: no-repeat;
@@ -101,6 +107,9 @@ body {
     border-bottom: 1px solid #000;
     width: 32%;
   }
+  .about-content li{
+    font-weight: 700;
+  }
   .about-content-list {
     margin: 0 auto;
     max-width: 342px;
@@ -109,6 +118,7 @@ body {
     margin-top: 28px;
     font-size: 24px;
     line-height: 1.75;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,6 +141,9 @@ body {
   .brand h2 {
     margin-bottom: 12px;
   }
+  .brand p{
+    font-weight: 500;
+  }
   .brand-p-style {
     font-size: 20px;
     margin-bottom: 68px;
@@ -148,6 +161,9 @@ body {
     text-align: center;
     margin-bottom: 96px;
   }
+  .work p{
+    font-weight: 500;
+  }
   .work-content {
     display: flex;
     flex-wrap: wrap;
@@ -159,6 +175,7 @@ body {
   }
   .work-content li h3 {
     margin-top: 16px;
+    font-weight: 500;
   }
   .footer {
     text-align: center;
@@ -168,6 +185,7 @@ body {
   }
   .footer p {
     margin-top: 16px;
+    font-weight: 500;
   }
   .footer a {
     text-decoration: none;
